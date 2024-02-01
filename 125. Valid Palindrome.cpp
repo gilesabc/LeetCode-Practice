@@ -5,11 +5,11 @@ public:
         int l = 0;
         int r = s.size()-1;
         while(l < r){
-            if(!isalpha(s[l])){
+            if(!isalnum(s[l])){
                 l++;
                 continue;
                 }
-            if(!isalpha(s[r])){
+            if(!isalnum(s[r])){
                 r--;
                 continue;
                 }
